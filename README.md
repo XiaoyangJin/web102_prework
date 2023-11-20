@@ -24,7 +24,7 @@ I change the color of the website
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/KAYoklo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/1lEVWkf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
