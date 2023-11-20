@@ -84,10 +84,11 @@ raisedCard.textContent = `$${totalRaised.toLocaleString('en-US')}`;
 
 // set inner HTML using template literal
 
-
 // grab number of games card and set its inner HTML
 const gamesCard = document.getElementById("num-games");
+const totalNum = GAMES_JSON.length;
 
+gamesCard.textContent = totalNum.toLocaleString('en-US');
 
 /*************************************************************************************
  * Challenge 5: Add functions to filter the funded and unfunded games
