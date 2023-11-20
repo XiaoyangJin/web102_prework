@@ -98,7 +98,7 @@ gamesCard.textContent = totalNum.toLocaleString('en-US');
 
 // show only games that do not yet have enough funding
 function filterUnfundedOnly() {
-    deleteChildElements(gamesContainer);
+    // deleteChildElements(gamesContainer);
 
     // use filter() to get a list of games that have not yet met their goal
     const unfundedGames = GAMES_JSON.filter((game) => game.pledged < game.goal);
@@ -110,7 +110,7 @@ function filterUnfundedOnly() {
 
 // show only games that are fully funded
 function filterFundedOnly() {
-    deleteChildElements(gamesContainer);
+    // deleteChildElements(gamesContainer);
 
     // use filter() to get a list of games that have met or exceeded their goal
     const fundedGames = GAMES_JSON.filter((game) => game.pledged >= game.goal);
@@ -122,7 +122,7 @@ function filterFundedOnly() {
 
 // show all games
 function showAllGames() {
-    deleteChildElements(gamesContainer);
+    // deleteChildElements(gamesContainer);
 
     // add all games from the JSON data to the DOM
     addGamesToPage(GAMES_JSON);
