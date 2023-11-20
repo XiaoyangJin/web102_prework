@@ -155,7 +155,14 @@ const displayStr = `
 `;
 
 // create a new DOM element containing the template string and append it to the description container
+const paragraphElement = document.createElement('p');
+paragraphElement.innerHTML = displayStr;
 
+// Get the helpContainer element
+const helpContainer = document.getElementById('help-container');
+
+// Append the paragraph element to the helpContainer
+helpContainer.appendChild(paragraphElement);
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
  * Skills used: spread operator, destructuring, template literals, sort 
