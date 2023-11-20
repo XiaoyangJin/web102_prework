@@ -35,7 +35,8 @@ GIF created with QuickTime Player
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app.  
+Cause I'm new to javascript so I spend more time to figure out the meaning of each line of codes, but I managed to finish it and if I have time, I will polish it.
 
 ## License
 
