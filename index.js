@@ -129,9 +129,9 @@ function showAllGames() {
 }
 
 // select each button in the "Our Games" section
-const unfundedBtn = document.getElementById("unfunded-btn");
-const fundedBtn = document.getElementById("funded-btn");
-const allBtn = document.getElementById("all-btn");
+const unfundedBtn = document.getElementById("unfunded-btn").addEventListener("click", filterUnfundedOnly);
+const fundedBtn = document.getElementById("funded-btn").addEventListener("click", filterFundedOnly);
+const allBtn = document.getElementById("all-btn").addEventListener("click", showAllGames);
 
 // add event listeners with the correct functions to each button
 
