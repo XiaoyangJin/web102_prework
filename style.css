@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #FFF0CE;
 }
 
 #tentacles {
@@ -10,8 +10,9 @@ body {
 }
 
 .header {
+    color: white;
     display: flex;
-    background-color: lightblue;
+    background-color: #0174BE;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -27,13 +28,13 @@ body {
 .stats-container:hover {
     cursor: pointer;
     /* Changes the cursor to a pointer (usually a hand) on hover */
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #0174BE;
     /* Applies a box shadow on hover */
 }
 
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #f4d643;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
