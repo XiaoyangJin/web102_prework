@@ -148,7 +148,11 @@ const descriptionContainer = document.getElementById("description-container");
 const unfundedGamesCount = GAMES_JSON.filter((game) => game.pledged < game.goal).length;
 
 // create a string that explains the number of unfunded games using the ternary operator
-
+const displayStr = `
+  A total of $${totalRaised.toLocaleString('en-US')} has been raised for ${GAMES_JSON.length} games. 
+  Currently, ${unfundedGamesCount === 1 ? '1 game remains' : `${unfundedGamesCount} games remain`} unfunded. 
+  We need your help to fund these amazing games!
+`;
 
 // create a new DOM element containing the template string and append it to the description container
 
